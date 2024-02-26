@@ -203,7 +203,7 @@
                             <td class="text-start">${data.data.city}</td>
                         </tr>
                 </table>
-                <button class="btn btn-warning btn-sm" onclick='CalcelFun()'>Cancel</button>
+                <button class="btn btn-warning btn-sm" onclick='CancelFun()'>Cancel</button>
                 `;
                 }
             })
@@ -211,7 +211,7 @@
                 console.log(error)
             })
     }
-    function CalcelFun() {
+    function CancelFun() {
         Getlist(0);
     }
     function Update(id) {
